@@ -1,0 +1,389 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(1, 15, 92);
+    font-family: 'Chilanka', cursive;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+#homepage{
+    height:100vh;
+    width:100vw;
+}
+.navbar{
+    height: 60px;
+    width:100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(1, 15, 92);
+}
+.logo{
+    font-size:2.1rem;
+    color:white;
+    font-weight:600;
+}
+.content{
+    width:50%;
+}
+#fonts{
+    font-size:16px;
+    color:white;
+    margin:5px;
+}
+.content ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.content ul li{
+    list-style-type: none;
+    font-size:1.1rem;
+}
+.content ul li a{
+    text-decoration: none;
+    color:white;
+}
+.search{
+    position: relative;
+}
+.search input{
+    height:35px;
+    width:175px;
+    border-radius: 18px;
+    border:none;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 1.7rem;
+    background-color: transparent;
+    color:white;
+}
+.fa-magnifying-glass{
+    color:white;
+    position: absolute;
+    left:4%;
+    top:30%; 
+}
+.uparrow .fa-square-up{
+    font-size:2rem;
+    color:white;
+}
+hr.num1{
+    background-color: white;
+    height:1.5px;
+    border:none;
+}
+/* .centerpart .text1{
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    font-size:3rem;
+    margin-top:30px;
+    font-weight:500;
+    color:white;
+} */
+.centerpart .text2{
+    font-size:3rem;
+    color:white;
+    text-align: center;
+    margin-top:13%;
+}
+.centerpart .butsec button{
+    height:64px;
+    width:200px;
+    border-radius: 18px;
+    font-size:1.5rem;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s ease;
+    position: absolute;
+    top:50%;
+    left:50%;
+    outline:none;
+    transform: translate(-50%,-50%);
+    color:aqua;
+    border:2px solid aqua;
+}
+.centerpart .butsec button:hover{
+    height:70px;
+    width:208px;
+    font-size:1.6rem;
+    color: rgb(1, 15, 92);
+    background-color: aqua;
+    box-shadow: 0px 0px 100px aqua;
+}
+hr.num3{
+    border:none;
+    background-color: white;
+    height:2px;
+}
+
+
+
+
+/* CSS of aboutpage starts from here!!! */
+#aboutpage{
+    height:100vh;
+    width:100vw;
+    background-color:rgb(1, 15, 92);
+    position: relative;
+}
+hr.num5{
+    border:none;
+    background-color: white;
+    height:2px;
+}
+.aboutbody .aboutheader{
+    text-align:center;
+    color:white;
+    position: absolute;
+    top:4%;
+    left:50%;
+    transform: translate(-50%,-10%);
+}
+.aboutheader .textt1{
+    font-size:40px;
+}
+.aboutheader .textt2{
+    font-size:22px;
+}
+.cards{
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:500px;
+    display: flex;
+    width:95vw;
+}
+.card1{
+    height:405px;
+    color:white;
+    width:324px;
+    text-align:center;
+    box-shadow: 0px 0px 20px white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card1 .image1 img{
+    height:200px;
+    width: 322px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card2{
+    height:405px;
+    color:white;
+    width:324px;
+    text-align:center;
+    box-shadow: 0px 0px 20px white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: absolute;
+    left:50%;
+    top:41.4%;
+    transform: translate(-50%,-50%);
+}
+.card2 .image2 img{
+    height:200px;
+    width: 322px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card3{
+    height:405px;
+    color:white;
+    width:324px;
+    text-align:center;
+    box-shadow: 0px 0px 20px white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position:absolute;
+    right:3%;
+}
+.card3 .image3 img{
+    height:200px;
+    width: 322px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.cardheading1,.cardheading2,.cardheading3{
+    font-size:1.8rem;
+}
+.icon1,.icon2,.icon3{
+    font-size:1.5rem;
+    margin-top:1rem;
+}
+.description1,.description2,.description3{
+    font-size:1rem;
+}
+
+
+/* CSS for servicepage starts from here */
+#servicepage{
+    height:100vh;
+    width:100vw;
+    background-color:rgb(1, 15, 92);
+    position: relative;
+}
+hr.num6{
+    border:none;
+    background-color: white;
+    height:2px;
+}
+.servicebody .serviceheader{
+    text-align:center;
+    color:white;
+    position: absolute;
+    top:4%;
+    left:50%;
+    transform: translate(-50%,-10%);
+}
+.serviceheader .textts1{
+    font-size:40px;
+}
+.serviceheader .textts2{
+    font-size:22px;
+}
+.cardss{
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:500px;
+    display: flex;
+    width:95vw;
+}
+.card11{
+    height:405px;
+    color:white;
+    width:324px;
+    text-align:center;
+    box-shadow: 0px 0px 35px white;
+    border-radius:18px;
+    border:4px solid aqua;
+}
+.card22{
+    height:405px;
+    color:white;
+    width:324px;
+    text-align:center;
+    box-shadow: 0px 0px 35px white;
+    border-radius:18px;
+    position: absolute;
+    left:50%;
+    top:41.4%;
+    transform: translate(-50%,-50%);
+    border:4px solid aqua;
+}
+.card33{
+    height:405px;
+    color:white;
+    width:324px;
+    text-align:center;
+    box-shadow: 0px 0px 35px white;
+    border-radius:18px;
+    position:absolute;
+    right:3%;
+    border:4px solid aqua;
+}
+.cardheading11,.cardheading22,.cardheading33{
+    font-size:1.8rem;
+    margin:15px 0px;
+    text-decoration: underline;
+}
+.description11,.description22,.description33{
+    font-size:1rem;
+}
+.textts2{
+    margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From here we start to do the CSS of Formpage */
+#formpage{
+    height:100vh;
+    width:100vw;
+    background-color:rgb(1, 15, 92);
+    color:white;
+    text-align:center;
+    position: relative;
+    font-size:22px;
+}
+.formtext{
+    font-size:50px;
+}
+.namee,.emaill,.passwordd{
+    height:60px;
+    width:330px;
+    border:2px solid aqua;
+    outline:none;
+    border-radius: 20px;
+    background-color: transparent;
+    color:aqua;
+    font-size:22px;
+    margin-top:24px;
+    padding-left:10%;
+}
+.resett,.submitt{
+    margin-top:20px;
+    height:55px;
+    width:200px;
+    border:2px solid aqua;
+    outline:none;
+    border-radius: 20px;
+    background-color: transparent;
+    color:white;
+    font-size:22px;
+    cursor:pointer;
+}
+.resett:hover{
+    background-color: aqua;
+    color:#010f5c;
+    transition:0.7s ease;
+}
+.submitt:hover{
+    background-color: aqua;
+    color:#010f5c;
+    transition: 0.7s ease;
+}
+.form_all{
+     position:absolute;
+     top:24%;
+     left:50%;
+     transform: translate(-50%,-10%);
+}
